@@ -14,13 +14,10 @@ int main(void)
 	{
 	char small = tolower(x);
 
-	putchar(small);
-	}
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-	char big = x;
+	if (small == 'e' || small == 'q')
+		continue;
 
-	putchar(big);
+	putchar(small);
 	}
 	putchar('\n');
 	return (0);

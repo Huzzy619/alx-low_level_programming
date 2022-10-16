@@ -10,17 +10,11 @@ int main(void)
 {
 	int x;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	for (x = 0; x < 10; x++)
 	{
-	char small = tolower(x);
+	char num = x;
 
-	putchar(small);
-	}
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-	char big = x;
-
-	putchar(big);
+	printf("%d", num);
 	}
 	putchar('\n');
 	return (0);
