@@ -17,7 +17,7 @@ int main(void)
 
 	putchar(small);
 	}
-	for (int y = 'A'; y <= 'Z'; y++)
+	for (y = 'A'; y <= 'Z'; y++)
 	{
 	char big = y;
 
