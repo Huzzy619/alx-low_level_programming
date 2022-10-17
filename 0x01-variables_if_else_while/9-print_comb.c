@@ -9,20 +9,17 @@
 int main(void)
 {
 	int x;
-	int y;
 
 	for (x = 0; x < 10; x++)
 	{
-	putchar(x % 10 + '0');
-	}
+	int num = x;
 
-	for (y = 'A'; y <= 'Z'; y++)
-	{
-	char small = tolower(y);
 
-	if (small == 'g')
+	putchar(num % 10 + '0');
+	if (x == 9)
 		break;
-	putchar(small);
+	putchar(',');
+	putchar(32);
 	}
 	putchar('\n');
 	return (0);
