@@ -9,6 +9,7 @@
 int main(void)
 {
 	int x;
+	int y;
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
@@ -16,9 +17,9 @@ int main(void)
 
 	putchar(small);
 	}
-	for (int x = 'A'; x <= 'Z'; x++)
+	for (int y = 'A'; y <= 'Z'; y++)
 	{
-	char big = x;
+	char big = y;
 
 	putchar(big);
 	}
