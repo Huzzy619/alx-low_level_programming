@@ -5,10 +5,19 @@
   * Return: Always 0.
  */
 
-int main(void)
+/*int main(void)
 {
 
 	_putchar(print_alphabet());
 	_putchar('\n');
 	return (0);
+}*/
+
+void print_alphabet(void)
+{
+	int x 
+	for (int x = 'a'; x <= 'z'; x++)
+		_putchar(x);
+	_putchar('\n');
 }
+
