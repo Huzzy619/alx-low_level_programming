@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <ctype.h>
 #include <unistd.h>
 
@@ -25,3 +27,4 @@ void print_alphabet(void)
 	_putchar('\n');
 	return;
 }
+#endif
