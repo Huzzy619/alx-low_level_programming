@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
-  *print_alphabet - check the code
+  *_abs - returns absolute values
   *@n : number to be checked
   *Return: Always 0.
  */
 
 int _abs(int n)
 {
-
-	return n*((2*n+1)%2);
+	return (n * ((2 * n + 1) % 2));
 }
