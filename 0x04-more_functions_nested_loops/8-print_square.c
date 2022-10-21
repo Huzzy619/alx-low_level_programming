@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   *print_square - print squares
   *@size: indicating size of the square
@@ -12,16 +13,15 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		while(i < size)
+		while (i < size)
 		{
-			while(y < n)
+			while (y < size)
 			{
 				_putchar('#');
 				y++;
 			}
 			b = 0;
 			a++;
-
 			_putchar('\n');
 		}
 	}
