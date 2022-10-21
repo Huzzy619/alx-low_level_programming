@@ -1,26 +1,34 @@
 #include "main.h"
 
 /**
-  *print_line - print lines
+  *print_diagonal - print lines
   *@n: indicating length of line
   *Return: Always 0
   */
 
 
-void print_line(int n)
+void print_diagonal(int n)
 {
+	int x = 0;
+	int y = 0;
+
 	if (n <= 0)
 		_putchar('\n');
 
 	else
 	{
-		while (n > 0)
+		while (x < n)
 		{
-		_putchar(' ');
-		n--;
-		}
-		_putchar('\');
+			while(y < x){
+
+				_putchar(' ');
+				y++;
+			}
+			x++;
+		y = 0;
+		_putchar('\\');
 		_putchar('\n');
+		}
 	}
 }
 
