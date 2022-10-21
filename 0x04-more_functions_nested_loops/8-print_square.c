@@ -20,8 +20,8 @@ void print_square(int size)
 				_putchar('#');
 				y++;
 			}
-			b = 0;
-			a++;
+			y = 0;
+			i++;
 			_putchar('\n');
 		}
 	}
