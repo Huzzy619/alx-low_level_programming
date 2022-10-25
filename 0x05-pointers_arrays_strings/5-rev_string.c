@@ -5,6 +5,8 @@
  *@s: string to be reversed
  *Return: Always 0
  */
+
+
 void rev_string(char *s)
 {
 	int i = 0;
@@ -14,13 +16,6 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	while (j < i)
-	{
-		_putchar(s[j]);
-		j++;
-	}
-	_putchar('\n');
-
 	while (i > 0)
 	{
 		i--;
@@ -28,3 +23,4 @@ void rev_string(char *s)
 	}
 	_putchar('\n');
 }
+
