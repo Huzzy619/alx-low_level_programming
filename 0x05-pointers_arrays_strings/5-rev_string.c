@@ -19,12 +19,12 @@ void rev_string(char *s)
 		_putchar(str[j]);
 		j++;
 	}
-	_putchar('\n);
+	_putchar('\n');
 
 	while (i > 0)
 	{
 		i--;
 		_putchar(str[i]);
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
