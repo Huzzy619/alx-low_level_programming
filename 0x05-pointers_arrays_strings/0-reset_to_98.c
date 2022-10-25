@@ -2,9 +2,9 @@
 
 /**
   *reset_to_98 - updates value
-  *@*n: parameter to be changed 
+  *@n:parameter to be changed
   *Return: Always 0
-  */
+ */
 
 void reset_to_98(int *n)
 {
