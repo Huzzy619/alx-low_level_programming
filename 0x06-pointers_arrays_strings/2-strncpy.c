@@ -1,30 +1,30 @@
 #include "main.h"
 
 /**
-  *_strncpy - copies strings
-  *@dest: first string
-  *@src: second string
-  *@n: number of bytes to use
-  *Return: concatenated strings
-  */
+ * _strncpy - copy the string
+ * @dest: array that returns
+ * @src: the pointer that receive the string
+ * @n: number of bytes to copy
+ * Return: the parameter dest.
+ */
 
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int len;
 	int i;
 
-	len = 0;
-	while (dest[len] != '\0')
-	{
-		++len;
-	}
-	for (i = 0; src[i] != '\0' && i < n; ++i)
+	i = 0;
+	while (i < n && src[i] != '\0')
 	{
 		dest[i] = src[i];
+		i++;
 	}
 
-	dest[i] = '\0';
-
+	i = i;
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
 	return (dest);
 }
