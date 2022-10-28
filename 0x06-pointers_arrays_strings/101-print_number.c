@@ -17,7 +17,6 @@ void print_number(int n)
 		i = -i;
 	}
 
-	/* Repeat the process if the digit is still divisible by 10 */
 
 	if (i / 10)
 	{
