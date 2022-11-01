@@ -8,7 +8,7 @@
  *Return: A pointer to c or Null
  */
 
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 
 	while (*s)
