@@ -30,7 +30,7 @@ unsigned int *_strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
 
-	while (*s && _strchar(accept, *s++))
+	while (*s && _strchr(accept, *s++))
 	{
 		len++;
 	}
