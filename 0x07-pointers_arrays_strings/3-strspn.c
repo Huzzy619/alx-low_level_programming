@@ -7,7 +7,7 @@
  *Return: A pointer to c or Null
  */
 
-unsigned int *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
 
