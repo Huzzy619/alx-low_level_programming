@@ -13,15 +13,16 @@
 
 int main(int argc, char *argv[])
 {
-	int result;
+	long int result;
 	int x;
+	int y;
 
 	if (argc == 1)
 	{
 
 		printf("%d\n", argc - 1);
 
-		return (1);
+		return (0);
 	}
 
 	argc = argc - 1;
@@ -33,11 +34,14 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-		result = result + atoi(argv[x]);
+
+		y = atoi(argv[x]);
+
+		result = result + y;
 		x++;
 	}
 
-	printf("%d\n", result);
+	printf("%ld\n", result);
 
 
 	return (0);
