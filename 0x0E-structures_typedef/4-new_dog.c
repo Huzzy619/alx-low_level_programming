@@ -2,45 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-/**
- * _strlen - returns the lenght of a string
- * @s: pointer to s
- *
- * Return: 0 on success
- *
- 
-int _strlen(char *s)
-{
-	int count = 0;
 
-	if (s != '\0')
-	{
-		while (*(s + count) != '\0')
-			count++;
-	}
-	return (count);
-}
-**
- * _strcpy - copies the string with \0 to the buffer
- * @dest: pointer to dest
- * @src: pointer to string
- *
- * Return: the pointer to dest
- *
- */
-char *_strcpy(char *dest, char *src)
-{
-	int i;
-
-	i = 0;
-	while (*(src + i) != '\0')
-	{
-		*(dest + i) = *(src + i);
-		i++;
-	}
-	*(dest + i) = '\0';
-	return (dest);
-}
 /**
  * new_dog - creates a new dog
  * @name: name
@@ -48,6 +10,7 @@ char *_strcpy(char *dest, char *src)
  * @owner: owner
  * Return: pointer to new struct
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int len_name, len_owner;
