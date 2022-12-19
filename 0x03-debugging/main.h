@@ -11,5 +11,6 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
+int largest_number(int a, int b, int c);
 
 #endif
